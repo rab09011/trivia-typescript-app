@@ -1,8 +1,13 @@
-# Getting Started with Create React App
+# Trivia
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### Made with Create React App & TypeScript
 
-## Available Scripts
+## API
+
+Trivia sourced from [Open Trivia DB](https://opentdb.com/), which is a free to use trivia question database.
+
+<details>
+<summary> Available Scripts </summary>
 
 In the project directory, you can run:
 
@@ -41,6 +46,8 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## Learn More
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+</details>

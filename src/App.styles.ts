@@ -17,7 +17,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   * {
-    font-family: 'Catamaran', sans-serif;
+    font-family: 'Rokkitt', serif;
     box-sizing: border-box;
   }
 `;
@@ -58,8 +58,8 @@ export const Wrapper = styled.div`
   .end,
   .restart {
     cursor: pointer;
-    background: linear-gradient(180deg, #ffffff, #ffcc91);
-    border: 2px solid #d38558;
+    background: linear-gradient(180deg, #ffffff, #77c4cc);
+    border: 2px solid #77c4cc;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     height: 40px;

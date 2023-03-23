@@ -27,18 +27,8 @@ export const Wrapper = styled.div`
   flex-direction: column;
   align-items: center;
 
-  > p {
-    color: #fff;
-  }
-
-  .score {
-    color: #77c4cc;
-    font-size: 3rem;
-    margin: 0;
-  }
-
   h1 {
-    font-family: Fascinate Inline;
+    font-family: Roboto Slab, serif;
     background-image: linear-gradient(180deg, #fff, #f09169);
     font-weight: 400;
     background-size: 100%;
@@ -50,7 +40,22 @@ export const Wrapper = styled.div`
     filter: drop-shadow(2px 2px #0085a3);
     font-size: 70px;
     text-align: center;
-    margin: 20px;
+    margin: 100px 20px 20px 20px;
+  }
+
+  > p {
+    color: #fff;
+  }
+
+  select {
+    margin: 15px 1px 0px;
+    cursor: pointer;
+  }
+
+  .score {
+    color: #77c4cc;
+    font-size: 3rem;
+    margin: 0;
   }
 
   .start,
@@ -65,9 +70,6 @@ export const Wrapper = styled.div`
     height: 40px;
     margin: 20px 0;
     padding: 0 40px;
-  }
-
-  .start {
-    max-width: 200px;
+    min-width: 150px;
   }
 `;

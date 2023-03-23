@@ -68,7 +68,6 @@ const App = () => {
   };
 
   const nextQuestion = () => {
-    // Move on to next if not on the last question
     setQuestionNum(questionNum + 1);
   };
 
@@ -112,7 +111,7 @@ const App = () => {
         {!gameActive ? (
           <div>
             <div className="settings">
-              <label>Choose number of questions and difficulty:</label>
+              <label>Choose the number of questions and the difficulty:</label>
               <br />
               <select name="quantity" onChange={e => setQuantity(parseInt(e.target.value) as Quantity)
               }>
@@ -131,7 +130,7 @@ const App = () => {
               Start
             </button>
           </div>
-        ) : <button className='restart' onClick={startOver}>Start Over</button>}
+        ) : <button className='restart' onClick={startOver}>Restart</button>}
       </Wrapper>
     </>
   );

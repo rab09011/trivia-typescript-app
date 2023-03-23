@@ -2,10 +2,6 @@
 
 #### Made with Create React App & TypeScript
 
-## API
-
-Trivia sourced from [Open Trivia DB](https://opentdb.com/), which is a free to use trivia question database.
-
 <details>
 <summary> Available Scripts </summary>
 
@@ -31,3 +27,7 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 To learn React, check out the [React documentation](https://reactjs.org/).
 
 </details>
+
+## API
+
+Trivia sourced from [Open Trivia DB](https://opentdb.com/), which is a free to use trivia question database.
